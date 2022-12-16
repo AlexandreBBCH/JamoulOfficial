@@ -9,25 +9,25 @@ public function __construct($nom, $prenom, $email, $password, $perm) {
     $this->password = $password;
     $this->perm = $perm;
   }
-  /
+  /*
  * nom
  * @var string
  */
 protected $nom;
 
 
-/
+  /*
  * prenom
  * @var string
  */
 protected $prenom;
 
-/
+  /*
  * mail
  * @var string
  */
 protected $email;
-/
+  /*
  * password
  * @var string
  */
