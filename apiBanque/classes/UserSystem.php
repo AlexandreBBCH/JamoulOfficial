@@ -2,13 +2,21 @@
 abstract class UserSystem
 {
 
-public function __construct($nom, $prenom, $email, $password, $perm) {
+public function __construct($idUser,$nom, $prenom, $email, $password, $perm) {
+    $this->idUser = $idUser;
     $this->nom = $nom;
     $this->prenom = $prenom;
     $this->email = $email;
     $this->password = $password;
     $this->perm = $perm;
   }
+
+   /*
+ * idUser
+ * @var idUser
+ */
+protected $idUser;
+
   /*
  * nom
  * @var string
