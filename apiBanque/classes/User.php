@@ -2,11 +2,23 @@
 require_once 'UserSystem.php';
 class User extends UserSystem
 {
-    public function __construct($name, $email, $password) {
+    public function __construct($idUser,$name, $email, $password) {
+        $this->idUser = $idUser;
         $this->name = $name;
         $this->email = $email;
         $this->password = $password;
       }
+
+      
+      public function getIdUser() {
+        return $this->idUser;
+      }
+
+      public function setIdUser() {
+        $this->idUser = $idUser;
+      }
+
+
       public function getName() {
         return $this->name;
       }
@@ -31,4 +43,6 @@ class User extends UserSystem
         $this->password = $password;
       }
 }
+
+$compteUser = new User(1,'Jamoul','JamoulOfficial@gmail.com',1234567);
 
