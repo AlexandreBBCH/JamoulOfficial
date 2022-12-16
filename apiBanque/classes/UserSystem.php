@@ -5,9 +5,11 @@ abstract class UserSystem
  * nom
  * @var string
  */
-function __construct() {
-    
-}
+public function __construct($name, $email, $password) {
+    $this->name = $name;
+    $this->email = $email;
+    $this->password = $password;
+  }
 protected $nom;
 
 
