@@ -49,6 +49,29 @@
         return $this;
     }
  
+    public static function getById(int $idUser, int $idCompteCourant)
+    {
+        // Prepare the SELECT statement
+        $sql = "SELECT * FROM compteCourant WHERE id_user = :idUser AND idCompteCourant = :idCompteCourant";
+        // Préparation de la requete
+        $query = db()->prepare($sql);
+        // Bind the parameters
+        $query->bindParam(':idUser', $idUser);
+        $query->bindParam(':idCompteCourant', $idCompteCourant);
+        // Execution de la requete
+        $query->execute();
+        // Récuperation des données s'il y en a 
+        $result = $query->fetchAll(PDO::FETCH_ASSOC);
+        // Retourne le tableau avec les données
+        if ($result) {
+            $compteCourant = new CompteCourant($result['titulaire'], $result['solde'], $result['decouvert']);
+            return $compteCourant;
+        }
+
+        // Otherwise, return null
+        return null;
+    }
+
 
     
 }
