@@ -1,6 +1,6 @@
 <?php
 require_once 'UserSystem.php';
-class User extends UserSystem
+class Invite extends UserSystem
 {
 //     /**
 //  * Taux d'intérêts
