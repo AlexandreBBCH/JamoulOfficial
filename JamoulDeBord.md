@@ -39,6 +39,12 @@ ___
 
 **Tâches faites :**
 
-1.
-
+1.  Début de la classe User. <span style="color:#A020F0">***Alexandre***</span>
+2.  Début de la classe Admin. <span style="color:#A020F0">***Achraf***</span>
+3.  Début de la classe Employee. <span style="color:#A020F0">***Jordan***</span>
+4. Réparation des conflits occasionnels.
+5. Plan de test en cours. <span style="color:#A020F0">***Jenusiyan & Benjamin***</span>
+6. Refonte du diagramme & corrections d'erreurs <span style="color:#A020F0">***Jordan***</span>
+7. Fusion des deux groupes (5 frères, 5 fauves, le JA)
+8. Modification de la classe <span style="color:orange">***UserSystem***</span> <span style="color:#A020F0">***Les 3 frères originaux (Jordan, Alexandre, Achraf)***</span>
 
