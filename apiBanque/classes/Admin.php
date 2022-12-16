@@ -13,4 +13,5 @@ class Admin extends UserSystem
 
     }
 }
-$admin = new Admin("Jamoule","Official", "jamoule@gmail.com", "jojo", "3");
+$i = 0;
+$admin = new Admin($i+=1, "Jamoule","Official", "jamoule@gmail.com", "jojo", "3");
