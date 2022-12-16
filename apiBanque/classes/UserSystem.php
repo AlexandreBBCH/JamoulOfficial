@@ -34,15 +34,18 @@ protected $prenom;
  * mail
  * @var string
  */
+
 protected $email;
   /*
  * password
  * @var string
  */
+
 protected $password;
 /**
  * perm
  * @var int(1)
  */
+
 protected $perm;
 }
