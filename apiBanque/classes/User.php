@@ -39,9 +39,5 @@ class User extends UserSystem
       }
 }
 
-<<<<<<< HEAD
 
-=======
-$compteUser = new User(1,'Jamoul','JamoulOfficial@gmail.com',1234567);
->>>>>>> 73c696307b95531c4258c4a916627e1f79bcfcbf
 
