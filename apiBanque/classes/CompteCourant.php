@@ -72,6 +72,11 @@
         return null;
     }
 
+    public function getSolde()
+    {
+    return $this->solde;
+    }
+
 
     
 }

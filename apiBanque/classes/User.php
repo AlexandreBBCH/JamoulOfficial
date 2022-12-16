@@ -2,25 +2,28 @@
 require_once 'UserSystem.php';
 class User extends UserSystem
 {
-    function DisplayBalanceCourant(){
-
+    function DisplayBalanceCourant($idUser,$idCompteCourant){
+            
     }
-    function DisplayBalanceEpargne(){
+    function DisplayBalanceEpargne($idUser,$idCompteEpargne){
     
     }
-    function AddToBalanceCourant(){
+    function AddToBalanceCourant($idUser,$idCompteCourant,$addedMoney){
     
     }
-    function AddToBalanceEpargne(){
+    function AddToBalanceEpargne($idUser,$idCompteEpargne,$addedMoney){
     
     }
-    function TakeToBalanceCourant(){
+    function TakeToBalanceCourant($idUser,$idCompteEpargne,$takeMoney){
     
     }
-    function TransferIntern(){
+    function TakeToBalanceEpargne($idUser,$idCompteEpargne,$takeMoney){
     
     }
-    function PayExtern(){
+    function TransfertIntern($idUser,$idCompteTransferer,$idCompteReceveur){
+    
+    }
+    function PayExtern($idUser,$idCompte,$idCompteExterne,$pay,$idTransaction){
     
     }
 
