@@ -32,5 +32,8 @@ echo "Set Taux :";
 var_dump($compteE1->setTauxInterets(3));
 echo "---------------------------------------------<br>";
 echo "Compte Utilisateur 1 :";
-var_dump($compteUser);
+var_dump($utilisateur1);
+echo "---------------------------------------------<br>";
+echo "Compte Admin  :";
+var_dump($admin);
 ?>
