@@ -1,6 +1,7 @@
 <?php
 abstract class UserSystem
 {
+<<<<<<< HEAD
 
 public function __construct($nom,$prenom, $email, $password,$permission) {
     $this->nom = $nom;
@@ -8,6 +9,17 @@ public function __construct($nom,$prenom, $email, $password,$permission) {
     $this->email = $email;
     $this->password = $password;
     $this->permission = $permission;
+=======
+/**
+ * nom
+ * @var string
+ */
+public function __construct($name, $email, $password, $perm) {
+    $this->name = $name;
+    $this->email = $email;
+    $this->password = $password;
+    $this->perm = $perm
+>>>>>>> 73c696307b95531c4258c4a916627e1f79bcfcbf
   }
 
   /**
@@ -15,6 +27,7 @@ public function __construct($nom,$prenom, $email, $password,$permission) {
  * @var string
  */
 protected $nom;
+
 
 /**
  * prenom
@@ -27,8 +40,8 @@ protected $prenom;
  * @var string
  */
 protected $email;
-
 /**
+<<<<<<< HEAD
  * password
  * @var string
  */
@@ -38,12 +51,10 @@ protected $password;
 /**
  * perm
  * @var int
+=======
+ * perm
+ * @var int(1)
+>>>>>>> 73c696307b95531c4258c4a916627e1f79bcfcbf
  */
-protected $permission;
-
-
-    //   public function login($email,password){
-        
-    // }
-
+protected $perm;
 }

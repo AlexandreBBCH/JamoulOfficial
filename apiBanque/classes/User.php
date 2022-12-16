@@ -18,7 +18,7 @@ class User extends UserSystem
         return $this->name;
       }
     
-      public function setName($nom) {
+      public function setName($name) {
         $this->name = $name;
       }
     
@@ -37,23 +37,11 @@ class User extends UserSystem
       public function setPassword($password) {
         $this->password = $password;
       }
-
-      public function getPerm($permission) {
-        $this->permission;
-      }
-
-      public function setPerm($permission) {
-        $this->permission = $permission;
-      }
-
-
-    //   getSold(){
-
-    //   }
-
-  
-
 }
 
+<<<<<<< HEAD
 
+=======
+$compteUser = new User(1,'Jamoul','JamoulOfficial@gmail.com',1234567);
+>>>>>>> 73c696307b95531c4258c4a916627e1f79bcfcbf
 
