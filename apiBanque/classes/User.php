@@ -55,5 +55,5 @@ class User extends UserSystem
 
 }
 
-$compteUser = new User(1,'Jamoul','JamoulOfficial@gmail.com',"1234567",0);
+
 
