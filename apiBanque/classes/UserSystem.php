@@ -2,7 +2,7 @@
 abstract class UserSystem
 {
 /**
- * Titulaire du compte
+ * nom
  * @var string
  */
 function __construct() {
@@ -12,8 +12,14 @@ protected $nom;
 
 
 /**
- * Solde du compte
- * @var float
+ * prenom
+ * @var string
  */
-protected $compteVoulu;
+protected $prenom;
+
+/**
+ * mail
+ * @var string
+ */
+protected $email;
 }
