@@ -2,14 +2,9 @@
 require_once 'UserSystem.php';
 class User extends UserSystem
 {
-    public function __construct($idUser,$name, $email, $password) {
-        $this->idUser = $idUser;
-        $this->name = $name;
-        $this->email = $email;
-        $this->password = $password;
-      }
+   
 
-      
+
       public function getIdUser() {
         return $this->idUser;
       }
