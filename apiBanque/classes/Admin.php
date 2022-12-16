@@ -15,3 +15,4 @@ class Admin extends UserSystem
 }
 $i = 0;
 $admin = new Admin($i+=1, "Jamoule","Official", "jamoule@gmail.com", "jojo", "3");
+$admin = new Admin($i+=1, "Jamoule","Official", "jamoule@gmail.com", "jojo", "3");
